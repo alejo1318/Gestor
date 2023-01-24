@@ -271,6 +271,9 @@ sup {
 sub {
   bottom: -.25em;
 }
+sub-sub {
+  bottom: -.25em;
+}
 
 sup {
   top: -.5em;
@@ -13491,6 +13494,16 @@ textarea.parsley-success:focus {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+.br-menu-sub-sub {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 27px;
+  background-color: #1a2432;
+  display: none;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
 .br-menu-sub .nav-link {
   font-size: 13px;
   color: #adb5bd;
@@ -13500,7 +13513,28 @@ textarea.parsley-success:focus {
   position: relative;
   transition: all 0.2s ease-in-out;
 }
-.br-menu-sub .nav-link::before {
+.br-menu-sub-sub .nav-link-sub {
+  font-size: 13px;
+  color: #adb5bd;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  white-space: nowrap;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.br-menu-sub .nav-link-sub::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  margin-top: -.5px;
+  width: 5px;
+  height: 1px;
+  background-color: #fff;
+  opacity: .5;
+  transition: all 0.2s ease-in-out;
+}
+.br-menu-sub-sub .nav-link-sub::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -13521,6 +13555,12 @@ textarea.parsley-success:focus {
   opacity: 1;
   background-color: #17A2B8;
 }
+.br-menu-sub-sub .nav-link-sub:hover::before, .br-menu-sub-sub .nav-link-sub:focus::before {
+  width: 40px;
+  left: -15px;
+  opacity: 1;
+  background-color: #17A2B8;
+}
 .br-menu-sub .nav-link.active {
   color: #17a2b8;
 }
@@ -13530,7 +13570,12 @@ textarea.parsley-success:focus {
   opacity: 1;
   background-color: #17A2B8;
 }
-
+.br-menu-sub-sub .nav-link.active::before {
+  width: 40px;
+  left: -15px;
+  opacity: 1;
+  background-color: #17A2B8;
+}
 @media (min-width: 992px) {
   .collapsed-menu .br-logo {
     left: -230px;

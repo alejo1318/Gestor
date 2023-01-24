@@ -46,7 +46,7 @@
 
 
   // This will expand the icon menu when mouse cursor points anywhere
-  // inside the sidebar menu on left. This will only trigget to left sidebar
+0  // inside the sidebar menu on left. This will only trigget to left sidebar
   // when it's in collapsed mode (the icon only menu)
   $(document).on('mouseover', function(e){
     e.stopPropagation();
@@ -97,6 +97,7 @@
         $('.br-menu-sub').each(function(){
           $(this).slideUp();
         });
+        
 
         thisLink.addClass('show-sub');
         nextElem.slideDown();
