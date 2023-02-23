@@ -8,7 +8,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Pacientes</title>
+    <title>Formulario</title>
 
     <!-- vendor css -->
     <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -18,11 +18,11 @@
 
     <!-- Bracket CSS -->
     <link rel="stylesheet" href="./Css/bracket.css">
-  </head>
-  <body>
+</head>
+<body>
         <!-- ########## START: LEFT PANEL ########## -->
-      <div class="br-logo"><a href="Index.html"><span>[</span>Nombre_Gestor<span>]</span></a></div>
-      <div class="br-sideleft overflow-y-auto">
+    <div class="br-logo"><a href="Index.html"><span>[</span>Nombre_Gestor<span>]</span></a></div>
+    <div class="br-sideleft overflow-y-auto">
         <div class="br-sideleft-menu">
           <a href="#" class="br-menu-link">
             <div class="br-menu-item">
@@ -81,11 +81,11 @@
           </a><!-- br-menu-link -->
         </div><!-- br-sideleft-menu -->
         <br>
-      </div><!-- br-sideleft -->
+    </div><!-- br-sideleft -->
       <!-- ########## END: LEFT PANEL ########## -->
         <!-- ########## START: HEAD PANEL ########## -->
     
-      <div class="br-header">
+    <div class="br-header">
         <div class="br-header-left">
           <div class="navicon-left hidden-md-down"><a id="btnLeftMenu" href=""><i class="icon ion-navicon-round"></i></a></div>
           <div class="navicon-left hidden-lg-up"><a id="btnLeftMenuMobile" href=""><i class="icon ion-navicon-round"></i></a></div>
@@ -112,44 +112,63 @@
             </div><!-- dropdown -->
           </nav>
         </div><!-- br-header-right -->
-      </div><!-- br-header -->
+    </div><!-- br-header -->
       <!-- ########## END: HEAD PANEL ########## -->  
       <div class="br-mainpanel">
-      <div class="br-pageheader pd-y-15 pd-l-20">
-        <nav class="breadcrumb pd-0 mg-0 tx-12">
-          <a class="breadcrumb-item" href="index.html">Inicio</a>
-          <span class="breadcrumb-item active">Pacientes</span>
-          <span class="breadcrumb-item active">Nuevo</span>
+        <div class="br-pageheader pd-y-15 pd-l-20">
+          <nav class="breadcrumb pd-0 mg-0 tx-12">
+            <a class="breadcrumb-item" href="index.html">Inicio</a>
+            <span class="breadcrumb-item active">Pacientes</span>
+            <span class="breadcrumb-item active">Nuevo</span>
 
-        </nav>
-      </div><!-- br-pageheader -->
-      <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
-        <h4 class="tx-gray-800 mg-b-5">Nuevo Paciente</h4>
-        <p class="mg-b-0">Introducing Bracket apps &amp; pages, the most handsome admin template of all time.</p>
-      </div>
-        <div class="br-pagebody pd-x-20 pd-sm-x-30 pd-b-20">
-          <div class="row">
-            <div class="col-sm-6 col-xl-3">
-              <div class="br-section-wrapper pd-10">
-                <a href="page-profile.html"><img src="img/screen20.png" class="img-fluid" alt=""></a>
-                <a href="page-profile.html" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Adulto</a>
-              </div><!-- br-section-wrapper -->
-            </div><!-- col-3 -->
-            <div class="col-sm-6 col-xl-3 mg-t-30 mg-sm-t-0">
-              <div class="br-section-wrapper pd-10">
-                <a href="page-assets.html"><img src="img/screen5.png" class="img-fluid" alt=""></a>
-                <a href="page-assets.html" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Menores</a>
-              </div><!-- br-section-wrapper -->
-            </div><!-- col-3 -->
-            <div class="col-sm-6 col-xl-3 mg-t-30 mg-xl-t-0">
-              <div class="br-section-wrapper pd-10">
-                <a href="page-contacts.html"><img src="img/screen13.png" class="img-fluid" alt=""></a>
-                <a href="page-contacts.html" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Parejas</a>
-              </div><!-- br-section-wrapper -->
-            </div><!-- col-3 -->
-          </div><!-- row -->
-        </div><!-- br-pagebody -->
-      </div><!-- br-mainpanel -->
+          </nav>
+        </div><!-- br-pageheader -->
+            <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
+              <h4 class="tx-gray-800 mg-b-5">Nuevo Paciente</h4>
+              <p class="mg-b-0">Introducing Bracket apps &amp; pages, the most handsome admin template of all time.</p>
+            </div>
+            <div class="br-pagebody">
+                <div class="br-section-wrapper">
+                    <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Top Label Layout</h6>
+                    <div class="row mg-t-80">
+                        <div class="col-xl-6">
+                            <div class="form-layout form-layout-4">
+                                <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Left Label Alignment</h6>
+                                <p class="mg-b-30 tx-gray-600">A basic form where labels are aligned in left.</p>
+                                <div class="row">
+                                  <label class="col-sm-4 form-control-label">Nombre: </label>
+                                  <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                    <input type="text" class="form-control" placeholder="Enter firstname">
+                                  </div>
+                                </div><!-- row -->
+                                <div class="row mg-t-20">
+                                  <label class="col-sm-4 form-control-label">Documento</label>
+                                  <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                    <input type="text" class="form-control" placeholder="Enter lastname">
+                                  </div>
+                                </div>
+                                <div class="row mg-t-20">
+                                  <label class="col-sm-4 form-control-label">Telefono</label>
+                                  <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                    <input type="text" class="form-control" placeholder="Enter email address">
+                                  </div>
+                                </div>
+                                <div class="row mg-t-20">
+                                  <label class="col-sm-4 form-control-label">Address: <span class="tx-danger">*</span></label>
+                                  <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                                    <textarea rows="2" class="form-control" placeholder="Enter your address"></textarea>
+                                  </div>
+                                </div>
+                                <div class="form-layout-footer mg-t-30">
+                                  <button class="btn btn-info">Submit Form</button>
+                                  <button class="btn btn-secondary">Cancel</button>
+                                </div><!-- form-layout-footer -->
+                            </div><!-- form-layout -->
+                        </div><!-- col-6 -->
+                  </div><!-- row -->
+                </div><!-- br-section-wrapper -->
+            </div><!-- br-pagebody -->
+        </div><!-- br-mainpanel -->
     <!-- ########## START: HEAD PANEL ########## -->
    
   
