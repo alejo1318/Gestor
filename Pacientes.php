@@ -20,69 +20,7 @@
     <link rel="stylesheet" href="./Css/bracket.css">
   </head>
   <body>
-        <!-- ########## START: LEFT PANEL ########## -->
-      <div class="br-logo"><a href="Index.html"><span>[</span>Nombre_Gestor<span>]</span></a></div>
-      <div class="br-sideleft overflow-y-auto">
-        <div class="br-sideleft-menu">
-          <a href="#" class="br-menu-link">
-            <div class="br-menu-item">
-              <i class="menu-item-icon ion-ios-person tx-24"></i>
-              <span class="menu-item-label">Paciente</span>
-              <i class="menu-item-arrow fa fa-angle-down"></i>
-            </div><!-- menu-item -->
-          </a><!-- br-menu-link -->
-          <ul class="br-menu-sub nav flex-column">
-            <li class="nav-item"><a href="accordion.html" class="nav-link">Nuevo</a></li>
-            <li class="nav-item"><a href="alerts.html" class="nav-link">Consulta Base de datos</a></li>
-          </ul>
-            
-          <a href="#" class="br-menu-link">
-            <div class="br-menu-item">
-              <i class="menu-item-icon icon ion-ios-book-outline tx-22"></i>
-              <span class="menu-item-label">Agenda</span>
-              <i class="menu-item-arrow fa fa-angle-down"></i>
-            </div><!-- menu-item -->
-          </a><!-- br-menu-link -->
-          <ul class="br-menu-sub nav flex-column">
-            <li class="nav-item"><a href="navigation.html" class="nav-link">Asignar</a></li>
-            <li class="nav-item"><a href="navigation-layouts.html" class="nav-link">Consultar</a></li>
-          </ul>
-          <a href="#" class="br-menu-link">
-            <div class="br-menu-item">
-              <i class="menu-item-icon icon ion-ios-list-outline tx-22"></i>
-              <span class="menu-item-label">Informes</span>
-              <i class="menu-item-arrow fa fa-angle-down"></i>
-            </div><!-- menu-item -->
-          </a><!-- br-menu-link -->
-          <ul class="br-menu-sub nav flex-column">
-            <li class="nav-item">
-              <a href="#" class="br-menu-link">Genera Informe<!-- br-menu-link -->    
-                <ul class=" nav flex-column">
-                  <li class="menu-item-label nav"><a href="accordion.html" class="nav-link">Menores</a></li>
-                  <li class="menu-item-label nav"><a href="accordion.html" class="nav-link">Adultos</a></li>                  
-                  <li class="menu-item-label nav"><a href="alerts.html" class="nav-link">Parejas</a></li>
-                </ul>  
-              </a>  
-            </li>
-            <li class="nav-item"><a href="chart-flot.html" class="br-menu-link">Ver Informes</a></li>
-          </ul>
-          
-          <a href="#" class="br-menu-link">
-            <div class="br-menu-item">
-              <i class="menu-item-icon icon ion-ios-person tx-20"></i>
-              <span class="menu-item-label">Perfil</span>
-            </div><!-- menu-item -->
-          </a><!-- br-menu-link -->
-          <a href="#" class="br-menu-link">
-            <div class="br-menu-item">
-              <i class="menu-item-icon icon ion-ios-gear-outline tx-24"></i>
-              <span class="menu-item-label">Cerrar Sesion</span>
-            </div><!-- menu-item -->
-          </a><!-- br-menu-link -->
-        </div><!-- br-sideleft-menu -->
-        <br>
-      </div><!-- br-sideleft -->
-      <!-- ########## END: LEFT PANEL ########## -->
+    <?php require_once("../Gestor/HTML/left_panel.php");?>
         <!-- ########## START: HEAD PANEL ########## -->
     
       <div class="br-header">
@@ -117,9 +55,10 @@
       <div class="br-mainpanel">
       <div class="br-pageheader pd-y-15 pd-l-20">
         <nav class="breadcrumb pd-0 mg-0 tx-12">
-          <a class="breadcrumb-item" href="index.html">Inicio</a>
+          <a class="breadcrumb-item" href="index.php">Inicio</a>
           <span class="breadcrumb-item active">Pacientes</span>
           <span class="breadcrumb-item active">Nuevo</span>
+          
 
         </nav>
       </div><!-- br-pageheader -->
@@ -131,14 +70,14 @@
           <div class="row">
             <div class="col-sm-6 col-xl-3">
               <div class="br-section-wrapper pd-10">
-                <a href="page-profile.html"><img src="img/screen20.png" class="img-fluid" alt=""></a>
-                <a href="page-profile.html" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Adulto</a>
+                <a href="Formulario_PA.php"><img src="img/screen20.png" class="img-fluid" alt=""></a>
+                <a href="Formulario_PA.php" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Adulto</a>
               </div><!-- br-section-wrapper -->
             </div><!-- col-3 -->
             <div class="col-sm-6 col-xl-3 mg-t-30 mg-sm-t-0">
               <div class="br-section-wrapper pd-10">
-                <a href="page-assets.html"><img src="img/screen5.png" class="img-fluid" alt=""></a>
-                <a href="page-assets.html" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Menores</a>
+                <a href="Form_menores.php"><img src="img/screen5.png" class="img-fluid" alt=""></a>
+                <a href="Form_menores.php" class="d-block mg-t-10 tx-gray-600 hover-info tx-center">Menores</a>
               </div><!-- br-section-wrapper -->
             </div><!-- col-3 -->
             <div class="col-sm-6 col-xl-3 mg-t-30 mg-xl-t-0">

@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!-- Section: Design Block -->
 <!DOCTYPE html>
 <html lang="en">
@@ -37,21 +40,7 @@
                  <form>
                   <h5 class="tx-xs-28 tx-inverse mg-b-5">Welcome back!</h5>
                   <p>Sign in to your account to continue</p>
-                  <br>
-                   <!-- 2 column grid layout with text inputs for the first and last names -->
-                   <div class="row">
-                     <div class="col-md-6 mb-4">
-                       <div class="form-outline">
-                         <input type="text" id="form3Example1" class="form-control" placeholder="First name"/>
-                       </div>
-                     </div>
-                     <div class="col-md-6 mb-4">
-                       <div class="form-outline">
-                         <input type="text" id="form3Example2" class="form-control" placeholder="Last name"/>
-                       </div>
-                     </div>
-                   </div>
-     
+                  <br>    
                    <!-- Email input -->
                    <div class="form-outline mb-4">
                      <input type="email" id="form3Example3" class="form-control" placeholder="Email address"/>
